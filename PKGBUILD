@@ -1,6 +1,6 @@
 pkgname=boomaga
 pkgver=0.7.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Boomaga (BOOklet MAnager) is a virtual printer for viewing a document before printing it out using the physical printer."
 arch=('x86_64')
 url='https://boomaga.github.io'
