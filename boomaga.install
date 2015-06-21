@@ -1,0 +1,8 @@
+post_install() {
+	echo "To install the virtual printer provided by this application
+You should run:
+
+     '/usr/bin/installPrinter.sh'  as sudo user.
+
+You'll then be able to choose boomaga printer as preview."
+}
