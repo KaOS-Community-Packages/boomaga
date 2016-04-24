@@ -6,6 +6,7 @@ arch=('x86_64')
 url='https://boomaga.github.io'
 license=('LGPL' 'GPL')
 depends=('cups' 'snappy' 'poppler' 'ghostscript')
+makedepends=('cmake')
 install=${pkgname}.install
 source=("https://github.com/Boomaga/boomaga/archive/v${pkgver}.tar.gz")
 sha512sums=('203bfe7edeb1d22e1923d35ef3160f6ec0744c5d9a50d3c22c89c72ce24d4083f7276a4f71e599d0b95f0d880a0634391b0699fb2eab0c3d04e0c0fcf91193cd')
