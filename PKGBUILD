@@ -1,5 +1,5 @@
 pkgname=boomaga
-pkgver=0.7.1
+pkgver=1.3.0
 pkgrel=1
 pkgdesc="Boomaga (BOOklet MAnager) is a virtual printer for viewing a document before printing it out using the physical printer."
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=('cups' 'snappy' 'poppler' 'ghostscript')
 makedepends=('cmake')
 install=${pkgname}.install
 source=("https://github.com/Boomaga/boomaga/archive/v${pkgver}.tar.gz")
-sha512sums=('203bfe7edeb1d22e1923d35ef3160f6ec0744c5d9a50d3c22c89c72ce24d4083f7276a4f71e599d0b95f0d880a0634391b0699fb2eab0c3d04e0c0fcf91193cd')
+sha256sums=('fd05be1100701cf6e7bbbf41b635ca2ca4d1eaf88bfdcf4a83f9a6ba8de24e35')
 
 build() {
   cd ${srcdir}/${pkgname}-${pkgver}/
