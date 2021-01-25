@@ -7,6 +7,7 @@ url='https://boomaga.github.io'
 license=('LGPL' 'GPL')
 depends=('cups' 'snappy' 'poppler' 'ghostscript' 'qt5-tools')
 makedepends=('cmake')
+install=${pkgname}.install
 source=("https://github.com/Boomaga/boomaga/archive/v${pkgver}.tar.gz")
 md5sums=('2f25c8901acf748a53560f1f93565f90')
 
